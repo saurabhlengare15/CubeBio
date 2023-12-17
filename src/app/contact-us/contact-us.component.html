@@ -4,76 +4,74 @@
     <h1>CONTACT US</h1>
   </div>
 </div>
-<div class="container-fluid help" >
-  <div >
+<div class="container-fluid help">
+  <div>
 
-         <span id="span1" data-aos="fade-up" data-aos-duration="2000">WANT QUICK HELP ?</span>
+    <span id="span1" data-aos="fade-up" data-aos-duration="2000">WANT QUICK HELP ?</span>
     <span id="span2" data-aos="fade-up" data-aos-duration="2000">GOOD TIME TO CONNECT WITH US</span>
-
-         <span id="span1" data-aos="fade-up" data-aos-duration="3000">WANT QUICK HELP ?</span>
-    <span id="span2" data-aos="fade-up" data-aos-duration="3000">GOOD TIME TO CONNECT WITH US</span>
 
   </div>
 </div>
 <div class="container">
   <div class="row">
-      <div class="col-lg-4 column1">
-        <div class="box" data-aos="fade-right" data-aos-duration="2000" *ngFor="let icon of icons;let i = index">
-          <div class="icon">
-            <i [class]=icon aria-hidden="true"></i>
-          </div>
-          <div class="data">
-            <Span>
-              <h5>{{titles[i]}}</h5></Span>
-            <span>{{sub_titles[i]}}</span>
-          </div>
+    <div class="col-lg-4 column1">
+      <div class="box" data-aos="fade-right" data-aos-duration="2000" *ngFor="let icon of icons;let i = index">
+        <div class="icon">
+          <i [class]=icon aria-hidden="true"></i>
+        </div>
+        <div class="data">
+          <Span>
+            <h5>{{titles[i]}}</h5>
+          </Span>
+          <span>{{sub_titles[i]}}</span>
         </div>
       </div>
+    </div>
 
-      <div class="col-lg-8 column2" data-aos="fade-left" data-aos-duration="2000">
-        <div>
-          <header>
-            <h3 id="send" class="stylish-underline"> Send Your Message</h3>
-            <p> Please feel free to get in touch using the form below. We'd love to hear for you.</p>
-          </header>
-        </div>
-        <form>
-          <div class="row">
-              <div class="col-md-6">
-                <div class="input-group">
-                  <input id="first-name" type="text" placeholder="Enter Name">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <input id="middle-name" type="text" placeholder="Enter Email">
-               </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <input id="phone" type="text" placeholder="Phone">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <input id="subject" type="text" placeholder="Subject">
-               </div>
-              </div>
-              <div class="col-md-12">
-                <div class="input-group">
-                  <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="input-group" >
-                  <button class="send-button" >
-                    Send Now &nbsp;
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </button>
-                  </div>
-              </div>
-          </div>
-        </form>
+    <div class="col-lg-8 column2" data-aos="fade-left" data-aos-duration="2000">
+      <div>
+        <header>
+          <h3 id="send" class="stylish-underline"> Send Your Message</h3>
+          <p> Please feel free to get in touch using the form below. We'd love to hear for you.</p>
+        </header>
       </div>
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="first-name" type="text" placeholder="Enter Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="middle-name" type="text" placeholder="Enter Email">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="phone" type="text" placeholder="Phone">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="subject" type="text" placeholder="Subject">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-group">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-group">
+              <button class="send-button">
+                Send Now &nbsp;
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 </div>
