@@ -44,11 +44,11 @@
     color: #61CE70;
 }
 
-/* .dropdown-menu{
+.dropdown-menu{
     border-top: 5px solid #61CE70;
-} */
+}
 
-  .navbar-nav {
+  /* .navbar-nav {
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -69,7 +69,6 @@
   .navbar-nav a {
     padding: .5em .8em;
     color: #000;
-    /* background-color: red; */
     position: relative;
     text-decoration: none;
     font-size: 20px;
@@ -111,4 +110,4 @@
   
   .navbar-nav a:hover {
     color: #3DA35D;
-  }
+  } */
