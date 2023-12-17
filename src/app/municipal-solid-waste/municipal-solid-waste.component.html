@@ -1,0 +1,24 @@
+<div class="image-container">
+  <img [src]="resultdata.banner" alt="msw" class="msw-image">
+  <div class="centered-text">
+    <h1>{{resultdata.title}}</h1>
+  </div>
+</div>
+<div class="content">
+  <header>
+    <h2 class="stylish-underline"> {{resultdata.title}} </h2>
+  </header>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+        {{resultdata.info}}
+      </div>
+    </div>
+    <div class="col-md-6 column2">
+      <div class="image-container msw2">
+        <img [src]="resultdata.image" alt="msw2">
+      </div>
+
+    </div>
+  </div>
+</div>

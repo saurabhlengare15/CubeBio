@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+.carousal{
+    margin: 0;
+    padding: 0;
+}
+
+.imageholder{
+    max-height: 600px;
+}
+
+.info{
+  background-color: #fff;
+  color: #8c8c8c;
+  /* height: 300px; */
+}
+
+.info h1{
+  margin: 70px 0px;
+  /* font-family: 'Nova Square', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  color: #61CE70;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.info p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.75;
+  /* width: 90%; */
+  margin: 0px auto;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+
+
+/* .mission .service-item:hover .icon mat-icon {
+  color: #61CE70;
+} */

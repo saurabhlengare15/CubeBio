@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+.mission {
+    padding: 60px 0;
+    /* background-color: red; */
+}
+
+.mission .row {
+    /* background-color: #61CE70; */
+    width: 80%;
+    margin: 0px auto;
+}
+
+.mission .outbox {
+    /* background-color: red; */
+    margin: 10px auto;
+}
+
+.mission .mission-item h3,
+h4 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.mission .mission-item {
+    padding: 20px;
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+
+.mission .mission-item:hover {
+    padding: 20px;
+    background: #1e2434;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.mission .mission-item .icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-bottom: 50px;
+    margin: 0px auto;
+}
+
+.mission .mission-item .icon mat-icon {
+    color: var(--color-default);
+    color: #61CE70;
+    /* color: #1e2434; */
+    width: 100%;
+    font-size: 80px;
+    height: 100px;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    position: relative;
+}
+
+.mission .mission-item h3 {
+    color: var(--color-default);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 20px;
+    position: relative;
+    /* display: inline-block; */
+    /* background-color: red; */
+    text-align: center;
+    border-bottom: 4px solid #eeeeee;
+    transition: 0.3s;
+}
+
+.mission .mission-item h4 {
+    line-height: 3;
+    font-weight: 600;
+    color: #61CE70;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.mission .mission-item:hover h3 {
+    border-color: var(--color-primary);
+}

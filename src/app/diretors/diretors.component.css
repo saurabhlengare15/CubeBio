@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.banner {
+    box-sizing: border-box;
+    height: 450px;
+    /* background: url(../../assets/c3.jpg); */
+    background-image: url(../../assets/c2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* padding: 250px 100px; */
+}
+
+.banner h1 {
+    font-family: 'Nova Square', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    /* background-color: red; */
+    position: absolute;
+    letter-spacing: -3px;
+    /* padding: 20px; */
+    top: 50%;
+    left: 10%;
+    color: #fff;
+}
+
+.banner p {
+    font-family: 'Nova Square', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    color: #fff;
+}
+
+.names{
+    padding: 150px 100px;
+}
+
+.names h1{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #61CE70;
+    line-height: 1;
+}
+
+.photo {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.overlay{
+    margin: 0px auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.2;
+    overflow: hidden;
+    width: 91%;
+    height: 68%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.photo:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nameholder{
+    background-color: red;
+}
+
+.photo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.photo p{
+    font-family: 'Nova Square', sans-serif;
+    color: #61CE70;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  background-color: pink;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%; 
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 92%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+} */

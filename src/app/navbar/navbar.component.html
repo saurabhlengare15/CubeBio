@@ -1,0 +1,73 @@
+
+<nav class="navbar navbar-expand-lg shadow">
+    <div class="container-fluid bg">
+      <a class="navbar-brand" href="#"><img src="../../assets/Cube-Bio-Energy-Logo.jpeg" width="175"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/about/brifhistory">brief history</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="#mission">vision & mission</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="/board-of-directors">board of directors</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="/investors-deck">investors deck</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="/iec">iec</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="/csr">csr</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Solutions
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <li><button class="dropdown-item" role="button" [routerLink] = "[]" (click)="showSoln($event)" value="MUNICIPAL SOLID WASTE">municipal solid waste</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="BIOMINING – REMEDIATION AND RECLAMATION OF OLD LEGACY MSW">BIOMINING – REMEDIATION AND RECLAMATION OF OLD LEGACY MSW</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="MRF (MATERIAL RECOVERY FACILITIES)">MRF (MATERIAL RECOVERY FACILITIES)</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="FECAL SLUDGE MANAGEMENT">FECAL SLUDGE MANAGEMENT</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="INDUSTRIAL WASTE MANAGEMENT">INDUSTRIAL WASTE MANAGEMENT</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="BIOMEDICAL WASTE MANAGEMENT">BIOMEDICAL WASTE MANAGEMENT</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="CONSTRUCTION AND DEMOLITION WASTE MANAGEMENT">CONSTRUCTION AND DEMOLITION WASTE MANAGEMENT</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="INTEGRATED ENVIRONMENTAL SERVICES">INTEGRATED ENVIRONMENTAL SERVICES</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="CONSULTANCY">CONSULTANCY</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="RECYCLING">RECYCLING</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" (click)="showSoln($event)" value="R&D IN WASTE MANAGEMENT">R&D IN WASTE MANAGEMENT</button></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/media-and-rewards">media & awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/career">career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <div class="second"></div>
+      </div>
+    </div>
+  </nav>

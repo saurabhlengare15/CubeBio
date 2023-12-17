@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.banner {
+    box-sizing: border-box;
+    height: 450px;
+    /* background: url(../../assets/c3.jpg); */
+    background-image: url(../../assets/c2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* padding: 250px 100px; */
+}
+
+.banner h1 {
+    font-family: 'Nova Square', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    /* background-color: red; */
+    position: absolute;
+    letter-spacing: -3px;
+    /* padding: 20px; */
+    top: 45%;
+    left: 25%;
+    color: #fff;
+}
+
+.banner p {
+    font-family: 'Nova Square', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    color: #fff;
+}
+
+.data .container img{
+    margin: 75px auto;
+    width: 60%;
+    /* background-color: red; */
+}
