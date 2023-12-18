@@ -4,7 +4,7 @@
 .banner{
     box-sizing: border-box;
     height: 450px;
-    background: url(../../assets/c3.jpg);
+    /* background: url(../../assets/c3.jpg); */
     background-image: url(../../assets/c2.jpg);
     background-size: cover;
     background-position: center;
@@ -13,13 +13,15 @@
 }
 
 .banner h1{
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 75px;
     position: absolute;
-    letter-spacing: -3px;
+    letter-spacing: 1px;
     top: 50%;
-    left: 25%;
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
     color: #fff;
 }
 
@@ -114,4 +116,5 @@
     font-weight: 900;
     margin-top: -10px;
 }
+
 
