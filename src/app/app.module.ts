@@ -22,7 +22,8 @@ import { DiretorsComponent } from './diretors/diretors.component';
 import { InvestorsComponent } from './investors/investors.component';
 import { IecComponent } from './iec/iec.component';
 import { CsrComponent } from './csr/csr.component';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { LogosComponent } from './logos/logos.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CsrComponent } from './csr/csr.component';
     DiretorsComponent,
     InvestorsComponent,
     IecComponent,
-    CsrComponent
+    CsrComponent,
+    LogosComponent
 
   ],
   imports: [
@@ -52,6 +54,7 @@ import { CsrComponent } from './csr/csr.component';
     MatIconModule,
     CommonModule,
     HttpClientModule,
+    CarouselModule  
     // SolutionsModule
   ],
   providers: [],

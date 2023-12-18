@@ -38,8 +38,17 @@
   text-align: justify;
 }
 
+.partners{
+  /* background-color: red; */
+  margin: 20px auto;
+}
 
-
-/* .mission .service-item:hover .icon mat-icon {
+.partners h1{
+  /* margin: 70px 0px; */
+  /* font-family: 'Nova Square', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   color: #61CE70;
-} */
+  font-size: 34px;
+  font-weight: bold;
+}
