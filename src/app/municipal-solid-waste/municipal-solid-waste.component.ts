@@ -24,7 +24,8 @@ export class MunicipalSolidWasteComponent implements OnInit {
           this.resultdata = data[0]
         }
       );
-    })
+    });
+    
     Aos.init();
     window.addEventListener('load', Aos.refresh);
   }
