@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import * as Aos from 'aos';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -6,7 +7,12 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   templateUrl: './iec.component.html',
   styleUrls: ['./iec.component.css']
 })
-export class IecComponent {
+export class IecComponent implements OnInit {
+
+  ngOnInit(): void {
+    Aos.init();
+    window.addEventListener('load', Aos.refresh);
+  }
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,

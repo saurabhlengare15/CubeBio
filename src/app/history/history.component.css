@@ -4,13 +4,14 @@
 .banner{
     box-sizing: border-box;
     height: 450px;
-    /* background: url(../../assets/c3.jpg); */
     background-image: url(../../assets/c2.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    /* padding: 250px 100px; */
 }
+
+
+
 
 .banner h1{
     font-family: 'Poppins', sans-serif;
@@ -64,9 +65,6 @@
     /* letter-spacing: -1px; */
 }
 
-.heading .data .row{
-    /* background-color: red; */
-}
 
 .heading .data .row .box{
     /* background-color: #61CE70; */
@@ -94,7 +92,7 @@
     text-align: justify;
     color: #8c8c8c;
     font-family: 'Nova Square', sans-serif;
-    
+
 }
 
 .heading .data .row .box .auther{

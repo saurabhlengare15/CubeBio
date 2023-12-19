@@ -11,6 +11,7 @@ import { IecComponent } from './iec/iec.component';
 import { CsrComponent } from './csr/csr.component';
 import { MunicipalSolidWasteComponent } from './municipal-solid-waste/municipal-solid-waste.component';
 import { SolutionPageComponent } from './solution-page/solution-page.component';
+import { CareerPageComponent } from './career-page/career-page.component';
 
 
 const routes: Routes = [
@@ -31,7 +32,7 @@ const routes: Routes = [
   },
   {
     path:'career',
-    component:CareerComponent,
+    component:CareerPageComponent,
     pathMatch:'full'
   },
   {

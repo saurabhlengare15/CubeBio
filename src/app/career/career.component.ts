@@ -1,5 +1,6 @@
 import { animate, style, transition, trigger,state } from '@angular/animations';
 import { Component, HostBinding, OnInit } from '@angular/core';
+import * as Aos from 'aos';
 
 @Component({
   selector: 'app-career',
@@ -26,6 +27,8 @@ export class CareerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    Aos.init();
+    window.addEventListener('load', Aos.refresh);
   }
 
   buttonState = 'notHovered';

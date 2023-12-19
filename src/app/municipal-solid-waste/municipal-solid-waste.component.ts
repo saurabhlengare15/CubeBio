@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
+import * as Aos from 'aos';
 import { Observable } from 'rxjs';
 import { SolutionDataService } from '../solution-data.service';
 
@@ -16,7 +17,6 @@ export class MunicipalSolidWasteComponent implements OnInit {
   constructor(private dataService: SolutionDataService,private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-
     this.route.params.subscribe(params=>{
       this.dataService.getFilteredData(params['solution']).subscribe(
         data =>{
@@ -25,6 +25,8 @@ export class MunicipalSolidWasteComponent implements OnInit {
         }
       );
     })
+    Aos.init();
+    window.addEventListener('load', Aos.refresh);
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as Aos from 'aos';
 // @ts-ignore
 import Typewriter from 't-writer.js';
 // import Typewriter from 'typewriter-effect';
@@ -19,11 +20,14 @@ export class HistoryComponent implements OnInit {
       blinkSpeed:500,
       cursorColor: '#fff',
     })
-    
+
     writer
       .type('about us')
-      .rest(500)
+      .rest(1000)
       .start()
+
+      Aos.init();
+      window.addEventListener('load', Aos.refresh);
 
   }
 

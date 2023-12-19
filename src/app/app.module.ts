@@ -24,6 +24,7 @@ import { IecComponent } from './iec/iec.component';
 import { CsrComponent } from './csr/csr.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { LogosComponent } from './logos/logos.component';
+import { CareerPageComponent } from './career-page/career-page.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { LogosComponent } from './logos/logos.component';
     InvestorsComponent,
     IecComponent,
     CsrComponent,
-    LogosComponent
+    LogosComponent,
+    CareerPageComponent
 
   ],
   imports: [
