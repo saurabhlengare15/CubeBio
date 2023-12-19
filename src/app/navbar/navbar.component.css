@@ -48,12 +48,18 @@
     border-top: 5px solid #61CE70;
 }
 
+nav a.active {
+  background-color: #007bff; /* Change this to the desired background color */
+  color: #fff; /* Change this to the desired text color */
+  /* Add any other styles for the active link */
+}
+
 /*  */
 
   .navbar-nav {
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    /* font-weight: 500; */
   }
   
   .navbar-nav * {
