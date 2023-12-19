@@ -13,7 +13,8 @@
 
 
 .centered-text h1 {
-  /* width: 80%; */
+  width: 80%;
+  text-align: center;
   /* background-color: red; */
   position: absolute;
   top: 50%;

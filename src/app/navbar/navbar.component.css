@@ -19,13 +19,13 @@
 }
 
 .bg{
-    /* background-color: blue; */
+    
     margin: -9px auto;
     width: 90%;
 }
 
 .navbar-nav{
-    /* background-color: red; */
+    
     width: 100%;
 }
 
@@ -48,7 +48,9 @@
     border-top: 5px solid #61CE70;
 }
 
-  /* .navbar-nav {
+/*  */
+
+  .navbar-nav {
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -60,22 +62,22 @@
   }
   
   .navbar-nav li {
-    display: inline-block;
+    display: block;
     list-style: outside none none;
     margin: .3em 0.5em;
     padding: 0;
   }
   
-  .navbar-nav a {
+  .navbar-nav a,button {
     padding: .5em .8em;
     color: #000;
     position: relative;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 12px;
   }
   
-  .navbar-nav a::before,
-  .navbar-nav a::after {
+  .navbar-nav a::before, button::before,
+  .navbar-nav a::after, button::after {
     content: '';
     height: 14px;
     width: 14px;
@@ -84,7 +86,7 @@
     opacity: 0;
   }
   
-  .navbar-nav a::before {
+  .navbar-nav a::before,button::before {
     content: '';
     right: 0;
     top: 0;
@@ -93,7 +95,7 @@
     transform: translate(-100%, 50%);
   }
   
-  .navbar-nav a:after {
+  .navbar-nav a:after,button:after {
     content: '';
     left: 0;
     bottom: 0;
@@ -102,12 +104,12 @@
     transform: translate(100%, -50%)
   }
   
-  .navbar-nav a:hover:before,
-  .navbar-nav a:hover:after{
+  .navbar-nav a:hover:before,button:hover:before,
+  .navbar-nav a:hover:after,button:hover:after{
     transform: translate(0,0);
     opacity: 1;
   }
   
-  .navbar-nav a:hover {
+  .navbar-nav a:hover,button:hover {
     color: #3DA35D;
-  } */
+  }

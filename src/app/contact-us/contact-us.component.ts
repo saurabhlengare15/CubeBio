@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import * as Aos from 'aos';
 // @ts-ignore
 import Typewriter from 't-writer.js';
@@ -10,7 +11,18 @@ import Typewriter from 't-writer.js';
 })
 export class ContactUsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
+    this.router.routeReuseStrategy.shouldReuseRoute = function () {
+      return false;
+    }
+
+    this.router.events.subscribe((evt) => {
+      if (evt instanceof NavigationEnd) {
+        this.router.navigated = false;
+        window.scrollTo(0, 0);
+      }
+    });
+  }
 
   ngOnInit(): void {
 
