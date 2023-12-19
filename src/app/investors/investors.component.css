@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 .banner {
     box-sizing: border-box;
@@ -13,13 +13,13 @@
 }
 
 .banner h1 {
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 60px;
     /* background-color: red; */
     position: absolute;
-    letter-spacing: -3px;
+    /* letter-spacing: -3px; */
     /* padding: 20px; */
     top: 50%;
     left: 15%;
@@ -27,7 +27,8 @@
 }
 
 .banner p {
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
     position: absolute;

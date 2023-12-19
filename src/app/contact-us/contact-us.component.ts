@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as Aos from 'aos';
-
+// @ts-ignore
+import Typewriter from 't-writer.js';
 
 @Component({
   selector: 'app-contact-us',
@@ -14,6 +15,27 @@ export class ContactUsComponent implements OnInit {
   ngOnInit(): void {
     Aos.init();
     window.addEventListener('load', Aos.refresh);
+
+    const target = document.querySelector('.tw');
+
+    const writer = new Typewriter(target, {
+      loop: true,
+      typeColor: '#fff',
+      animateCursor: true,
+      blinkSpeed: 500,
+      cursorColor: '#fff',
+      typeSpeed: 90,
+      deleteSpeed: 90,
+    })
+
+    writer
+      .type('CONTACT US')
+      .rest(1000)
+      .start()
+
+    Aos.init();
+    window.addEventListener('load', Aos.refresh);
+
   }
 
   icons = ['fa fa-phone-square fa-4x', 'fa fa-envelope fa-4x', 'fa fa-map fa-4x', 'fa fa-thumb-tack fa-4x'];

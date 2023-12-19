@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 .banner{
     box-sizing: border-box;
@@ -9,9 +9,6 @@
     background-position: center;
     position: relative;
 }
-
-
-
 
 .banner h1{
     font-family: 'Poppins', sans-serif;
@@ -27,7 +24,8 @@
 }
 
 .banner p{
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
     position: absolute;
@@ -48,19 +46,19 @@
 }
 
 .heading h1{
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     color: #61CE70;
     letter-spacing: -1px;
 }
 
 .heading p{
     /* font-family: 'Nova Square', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 600;
     color: #61CE70;
     /* letter-spacing: -1px; */
 }
@@ -86,12 +84,12 @@
 }
 
 .heading .data .row .box p:not(.auther p){
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
-    font-weight: 100;
+    font-weight: 400;
     text-align: justify;
     color: #8c8c8c;
-    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -102,16 +100,16 @@
 }
 
 .heading .data .row .box .auther p:first-child{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #1e2434;
     font-size: 18px;
-    font-weight: 1800;
+    font-weight: 700;
 }
 
 .heading .data .row .box .auther p:last-child{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 500;
     margin-top: -10px;
 }
 

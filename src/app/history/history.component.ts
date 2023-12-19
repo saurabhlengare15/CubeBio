@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as Aos from 'aos';
 // @ts-ignore
 import Typewriter from 't-writer.js';
-// import Typewriter from 'typewriter-effect';
+
 
 @Component({
   selector: 'app-history',
@@ -19,6 +19,8 @@ export class HistoryComponent implements OnInit {
       animateCursor:true,
       blinkSpeed:500,
       cursorColor: '#fff',
+      typeSpeed: 90,
+      deleteSpeed: 90,
     })
 
     writer
