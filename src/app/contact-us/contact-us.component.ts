@@ -13,11 +13,8 @@ export class ContactUsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    Aos.init();
-    window.addEventListener('load', Aos.refresh);
 
     const target = document.querySelector('.tw');
-
     const writer = new Typewriter(target, {
       loop: true,
       typeColor: '#fff',

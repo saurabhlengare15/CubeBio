@@ -17,13 +17,11 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 60px;
-    /* background-color: red; */
     position: absolute;
-    /* letter-spacing: -3px; */
-    /* padding: 20px; */
     top: 50%;
-    left: 15%;
+    left: 50%;
     color: #fff;
+    transform: translate(-50%, -50%);
 }
 
 .banner p {

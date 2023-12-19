@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
-.banner{
+.banner {
     box-sizing: border-box;
     height: 450px;
     background-image: url(../../assets/c2.jpg);
@@ -10,20 +10,20 @@
     position: relative;
 }
 
-.banner h1{
+.banner h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 60px;
     position: absolute;
-    letter-spacing: 1px;
     top: 50%;
-    left: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /* transform: translate(-50%, -50%); */
     color: #fff;
 }
 
-.banner p{
+.banner p {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -36,24 +36,24 @@
 }
 
 /* history data */
-.history{
+.history {
     margin: 80px 0px;
 }
 
-.heading{
+.heading {
     background-color: #fff;
     /* margin-top: 100px; */
 }
 
-.heading h1{
+.heading h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #61CE70;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
-.heading p{
+.heading p {
     /* font-family: 'Nova Square', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -64,26 +64,26 @@
 }
 
 
-.heading .data .row .box{
+.heading .data .row .box {
     /* background-color: #61CE70; */
     margin: 5px auto;
     margin-top: 50px;
 }
 
-.heading .data .row .box-left{
+.heading .data .row .box-left {
     padding: 10px;
 }
 
-.heading .data .row .box-right{
+.heading .data .row .box-right {
     padding: 25px 0px;
 }
 
-.heading .data .row .box-left img{
+.heading .data .row .box-left img {
     height: auto;
     max-width: 100%;
 }
 
-.heading .data .row .box p:not(.auther p){
+.heading .data .row .box p:not(.auther p) {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
@@ -93,24 +93,22 @@
 
 }
 
-.heading .data .row .box .auther{
+.heading .data .row .box .auther {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-.heading .data .row .box .auther p:first-child{
+.heading .data .row .box .auther p:first-child {
     font-family: 'Raleway', sans-serif;
     color: #1e2434;
     font-size: 18px;
     font-weight: 700;
 }
 
-.heading .data .row .box .auther p:last-child{
+.heading .data .row .box .auther p:last-child {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
     margin-top: -10px;
 }
-
-

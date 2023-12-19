@@ -1,12 +1,12 @@
 <div class="image-container">
   <img [src]="resultdata.banner" alt="msw" class="msw-image">
   <div class="centered-text">
-    <h1>{{resultdata.title}}</h1>
+    <h1 class="tw">{{resultdata.title}}</h1>
   </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid data">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-8">
       <header data-aos="fade-right" data-aos-duration="2000">
         <h2 class="stylish-underline"> {{resultdata.title}} </h2>
       </header>
@@ -14,7 +14,7 @@
     <div class="row content">
       <div class="col-lg-6">
         <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          {{resultdata.info}}
+          <p>{{resultdata.info}}</p>
         </div>
       </div>
       <div class="col-lg-6">

@@ -12,7 +12,6 @@ import Typewriter from 't-writer.js';
 export class HistoryComponent implements OnInit {
   ngOnInit(): void {
     const target = document.querySelector('.tw');
-
     const writer = new Typewriter(target, {
       loop: true,
       typeColor: '#fff',
