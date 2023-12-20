@@ -2,39 +2,50 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 outbox" data-aos="fade-up" data-aos-duration="2000">
-                <div class="mission-item  position-relative shadow">
+                <div class="mission-item position-relative shadow" (click)="displayData('vision')" [class.change-background]="isClickedvision">
                     <div class="icon">
                         <mat-icon>
                             remove_red_eye
                         </mat-icon>
                     </div>
-                    <h4 class="text-center">Cube Bio Energy</h4>
-                    <h3 class="text-center">vision statement</h3>
+                    <div class="txtgrp">
+                        <h4 class="text-center">Cube Bio Energy</h4>
+                        <h3 class="text-center">vision statement</h3>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 outbox" data-aos="fade-up" data-aos-duration="2000">
-                <div class="mission-item position-relative shadow">
+                <div class="mission-item position-relative shadow" (click)="displayData('mission')" [class.change-background]="isClickedmission">
                     <div class="icon">
                         <mat-icon>
                             psychology
                         </mat-icon>
                     </div>
-                    <h4 class="text-center">Cube Bio Energy</h4>
-                    <h3 class="text-center">mission statement</h3>
+                    <div class="txtgrp">
+                        <h4 class="text-center">Cube Bio Energy</h4>
+                        <h3 class="text-center">vision statement</h3>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 outbox" data-aos="fade-up" data-aos-duration="2000">
-                <div class="mission-item position-relative shadow">
+                <div class="mission-item position-relative shadow" (click)="displayData('philosopy')" [class.change-background]="isClickedphilosophy">
                     <div class="icon">
                         <mat-icon>
                             description
                         </mat-icon>
                     </div>
-                    <h4 class="text-center">Cube Bio Energy</h4>
-                    <h3 class="text-center">philosopy</h3>
+                    <div class="txtgrp">
+                        <h4 class="text-center">Cube Bio Energy</h4>
+                        <h3 class="text-center">philosopy</h3>
+                    </div>
                 </div>
+            </div>
+
+            <div class="col-lg-8 display_data">
+                <h2>{{heading}}</h2>
+                <p>{{data}}</p>
             </div>
         </div>
     </div>
