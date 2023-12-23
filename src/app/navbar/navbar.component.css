@@ -3,119 +3,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 * {
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.navbar{
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    z-index: 1000;
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
 }
 
-.bg{
-    
-    margin: -9px auto;
-    width: 90%;
+.bg {
+  margin: -9px auto;
+  width: 90%;
 }
 
-.navbar-nav{
-    
-    width: 100%;
+.navbar-nav {
+  width: 100%;
 }
 
-.navbar .bg ul li a{
-    font-size: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
+.navbar .bg ul li a,
+button {
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.navbar .bg .dropdown-menu li a,button{
-    font-size: 12px;
-    padding: 5px 20px;
+.navbar .bg .dropdown-menu li a,
+button {
+  font-size: 12px;
+  padding: 5px 20px;
+  /* text-align: center;  */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
-.navbar .bg ul li a:hover{
-    color: #61CE70;
+.navbar .bg .dropdown-menu li button {
+  /* background-color: red; */
+  width: 15rem;
 }
 
-.dropdown-menu{
-    border-top: 5px solid #61CE70;
+.navbar .bg ul li a:hover {
+  color: #61CE70;
 }
 
-nav a.active {
-  background-color: #007bff; /* Change this to the desired background color */
-  color: #fff; /* Change this to the desired text color */
-  /* Add any other styles for the active link */
+.dropdown-menu {
+  border-top: 5px solid #61CE70;
+  word-break: break-word;
+  word-wrap: break-word;
 }
 
 /*  */
 
-  .navbar-nav {
-    text-transform: uppercase;
-    text-align: center;
-    /* font-weight: 500; */
-  }
-  
-  .navbar-nav * {
-    box-sizing: border-box;
-    transition: all .35s ease;
-  }
-  
-  .navbar-nav li {
-    display: block;
-    list-style: outside none none;
-    margin: .3em 0.5em;
-    padding: 0;
-  }
-  
-  .navbar-nav a,button {
-    padding: .5em .8em;
-    color: #000;
-    position: relative;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  
-  .navbar-nav a::before, button::before,
-  .navbar-nav a::after, button::after {
-    content: '';
-    height: 14px;
-    width: 14px;
-    position: absolute;
-    transition: all .35s ease;
-    opacity: 0;
-  }
-  
-  .navbar-nav a::before,button::before {
-    content: '';
-    right: 0;
-    top: 0;
-    border-top: 3px solid #3E8914;
-    border-right: 3px solid #2E640F;
-    transform: translate(-100%, 50%);
-  }
-  
-  .navbar-nav a:after,button:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    border-bottom: 3px solid #2E640F;
-    border-left: 3px solid #3E8914;
-    transform: translate(100%, -50%)
-  }
-  
-  .navbar-nav a:hover:before,button:hover:before,
-  .navbar-nav a:hover:after,button:hover:after{
-    transform: translate(0,0);
-    opacity: 1;
-  }
-  
-  .navbar-nav a:hover,button:hover {
-    color: #3DA35D;
-  }
+.navbar-nav {
+  text-transform: uppercase;
+  text-align: center;
+  /* font-weight: 500; */
+}
+
+.navbar-nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.navbar-nav li {
+  display: block;
+  list-style: outside none none;
+  margin: .3em 0.5em;
+  padding: 0;
+}
+
+.navbar-nav a,
+button {
+  padding: .5em .8em;
+  color: #000;
+  font-weight: 800;
+  position: relative;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.navbar-nav a::before,
+button::before,
+.navbar-nav a::after,
+button::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.navbar-nav a::before,
+button::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.navbar-nav a:after,
+button:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
+}
+
+.navbar-nav a:hover:before,
+button:hover:before,
+.navbar-nav a:hover:after,
+button:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.navbar-nav a:hover,
+button:hover {
+  color: #3DA35D;
+}

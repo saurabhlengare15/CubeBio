@@ -16,38 +16,63 @@ export class MissionComponent implements OnInit {
   isClickedphilosophy: boolean = false;
 
   ngOnInit(): void {
-
     this.heading = 'VISION STATEMENT';
     this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
-    // Aos.init({ once: true });
-    // window.addEventListener('load', Aos.refresh);
     this.isClickedmission = false;
-      this.isClickedphilosophy = false;
-      this.isClickedvision = !this.isClickedvision;
+    this.isClickedphilosophy = false;
+    this.isClickedvision = !this.isClickedvision;
+    
     Aos.init();
     window.addEventListener('load', Aos.refresh);
   }
 
   displayData(name: string) {
-    if (name == 'vision') {
-      this.heading = 'VISION STATEMENT';
-      this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
-      this.isClickedmission = false;
-      this.isClickedphilosophy = false;
-      this.isClickedvision = !this.isClickedvision;
-    } else if (name == 'mission') {
-      this.heading = 'MISSION STATEMENT';
-      this.data = 'To provide world class sustainable infrastructure for waste management to achieve clean and healthy environment society.';
-      this.isClickedphilosophy = false;
-      this.isClickedvision = false;
-      this.isClickedmission = !this.isClickedmission;
-    } else {
-      this.heading = 'PHILOSOPHY';
-      this.data = 'PPP is our philosophy, CBEPL put planet first among our three interlinked pursuits - Planet (Environmental), People (Social) and Process (Governance) – “CBEPLs DNA = ESG”.';
-      this.isClickedvision = false;
-      this.isClickedmission = false;
-      this.isClickedphilosophy = !this.isClickedphilosophy;
+
+    switch (name) {
+      case 'vision':
+        this.heading = 'VISION STATEMENT';
+        this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
+        this.isClickedmission = false;
+        this.isClickedphilosophy = false;
+        this.isClickedvision = !this.isClickedvision;
+        break;
+
+      case 'mission':
+        this.heading = 'MISSION STATEMENT';
+        this.data = 'To provide world class sustainable infrastructure for waste management to achieve clean and healthy environment society.';
+        this.isClickedphilosophy = false;
+        this.isClickedvision = false;
+        this.isClickedmission = !this.isClickedmission;
+        break;
+
+      case 'philosopy':
+        this.heading = 'PHILOSOPHY';
+        this.data = 'PPP is our philosophy, CBEPL put planet first among our three interlinked pursuits - Planet (Environmental), People (Social) and Process (Governance) – “CBEPLs DNA = ESG”.';
+        this.isClickedvision = false;
+        this.isClickedmission = false;
+        this.isClickedphilosophy = !this.isClickedphilosophy;
+        break;
     }
+
+    // if (name == 'vision') {
+    //   this.heading = 'VISION STATEMENT';
+    //   this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
+    //   this.isClickedmission = false;
+    //   this.isClickedphilosophy = false;
+    //   this.isClickedvision = !this.isClickedvision;
+    // } else if (name == 'mission') {
+    //   this.heading = 'MISSION STATEMENT';
+    //   this.data = 'To provide world class sustainable infrastructure for waste management to achieve clean and healthy environment society.';
+    //   this.isClickedphilosophy = false;
+    //   this.isClickedvision = false;
+    //   this.isClickedmission = !this.isClickedmission;
+    // } else {
+    //   this.heading = 'PHILOSOPHY';
+    //   this.data = 'PPP is our philosophy, CBEPL put planet first among our three interlinked pursuits - Planet (Environmental), People (Social) and Process (Governance) – “CBEPLs DNA = ESG”.';
+    //   this.isClickedvision = false;
+    //   this.isClickedmission = false;
+    //   this.isClickedphilosophy = !this.isClickedphilosophy;
+    // }
   }
 
   viewSelected() {
