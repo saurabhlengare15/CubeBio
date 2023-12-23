@@ -11,8 +11,6 @@ export class SolutionDataService {
 
   private dataUrl = 'assets/data/solution.json'; // Adjust the path to your JSON file
 
-
-
   getData(): Observable<any[]> {
     return this.http.get<any[]>(this.dataUrl);
   }

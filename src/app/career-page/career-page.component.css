@@ -20,24 +20,29 @@
   }
 }
 
-
-.centered-text {
+.centered-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-  line-height: 70px;
-  color: #ffffff;
 }
 
-.centered-text h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 60px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1;
-    text-transform: uppercase;
+.centered-text p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 .content {
@@ -128,9 +133,18 @@ textarea {
   transform: scale(0.9);
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 550px) {
   .centered-text h1 {
-      font-size: 50px;
-      line-height: 1;
+    font-size: 50px;
+    line-height: 1;
   }
+
+  .centered-text p{
+    width: 30%;
+    font-size: 10px;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
 }
