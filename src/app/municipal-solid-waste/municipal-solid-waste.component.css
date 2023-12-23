@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
 .image-container {
   width: 100%;
@@ -13,19 +13,18 @@
 
 
 .centered-text h1 {
-  width: 80%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
   text-align: center;
-  /* background-color: red; */
+  line-height: 1;
+  text-transform: uppercase;
+  /* width: 80%; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  line-height: 70px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 50px;
-  color: #fff;
+
 }
 
 .data {
@@ -39,15 +38,9 @@
   }
 
   .centered-text h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 30px;
-    line-height: 50px;
-    color: #ffffff;
-    font-weight: 700;
+    line-height: 1;
+    font-size: 36px;
+
   }
 }
 
@@ -79,7 +72,7 @@ header h2 {
   font-family: 'Poppins', sans-serif;
 }
 
-.content p{
+.content p {
   font-size: 18px;
 }
 

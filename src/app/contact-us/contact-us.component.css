@@ -18,16 +18,17 @@
 
 .centered-text h1 {
   font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 75px;
-  line-height: 70px;
-  color: #ffffff;
-  font-weight: 700;
+  color: #ffffff;;
 }
 
 .help {
@@ -227,4 +228,11 @@ textarea {
   /* Adjust the text color on hover */
   transform: scale(0.9);
   /* Adjust the scale as needed */
+}
+
+@media only screen and (max-width: 550px){
+  .centered-text h1 {
+      font-size: 50px;
+      line-height: 1;
+  }
 }
