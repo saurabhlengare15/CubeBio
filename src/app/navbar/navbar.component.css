@@ -84,9 +84,10 @@ button {
 button {
   padding: .5em .8em;
   color: #1e2434;
-  font-weight: 700;
+  font-weight: 800;
   position: relative;
   text-decoration: none;
+  letter-spacing: 1px;
   /* font-size: 12px; */
 }
 
