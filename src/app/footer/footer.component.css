@@ -82,5 +82,6 @@ ul li{
     .copyright{
         padding: 20px 10px;
         font-size: 16px;
+        line-height: 1.3;
     }
 }
