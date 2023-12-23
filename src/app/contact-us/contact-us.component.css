@@ -4,11 +4,11 @@
 
 .image-container {
   box-sizing: border-box;
-    height: 450px;
-    background-image: url(../../assets/contactus1.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  height: 450px;
+  background-image: url(../../assets/contactus1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .contact-us-image {
@@ -16,7 +16,7 @@
   height: auto;
 }
 
-.container{
+.container {
   margin-bottom: 5rem;
 }
 
@@ -32,7 +32,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #ffffff;;
+  color: #ffffff;
+  ;
 }
 
 .help {
@@ -69,7 +70,7 @@ header {
   color: rgb(94, 91, 91);
 }
 
-h3{
+h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -123,7 +124,7 @@ h3{
   align-items: center;
 }
 
-.data{
+.data {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -132,7 +133,7 @@ h3{
   margin-top: 5px;
 }
 
-.box .data h3{
+.box .data h3 {
   font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
@@ -140,7 +141,7 @@ h3{
   font-family: 'Raleway', sans-serif;
 }
 
-.box .data p{
+.box .data p {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -155,7 +156,7 @@ h3{
   border: 1px solid 61CE70;
 }
 
-.box:hover h3{
+.box:hover h3 {
   color: #fff;
 }
 
@@ -164,7 +165,7 @@ h3{
   padding: 7.5px;
 }
 
-.box:hover .icon{
+.box:hover .icon {
   color: #61CE70;
 }
 
@@ -234,9 +235,9 @@ textarea {
   /* Adjust the scale as needed */
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 550px) {
   .centered-text h1 {
-      font-size: 50px;
-      line-height: 1;
+    font-size: 50px;
+    line-height: 1;
   }
 }
