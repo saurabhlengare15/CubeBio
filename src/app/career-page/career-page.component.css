@@ -3,8 +3,12 @@
 
 
 .image-container {
-  position: relative;
-  width: 100%;
+  box-sizing: border-box;
+    height: 450px;
+    background-image: url(../../assets/career.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .career-image {
