@@ -42,11 +42,10 @@
 }
 
 .data{
-    padding: 100px 80px;
+    padding: 100px 50px;
 }
 
 .data .holder{
-    /* margin: 0px 1px; */
     margin: 20px auto;
     padding: 10px;
     padding-top: 40px;
@@ -76,8 +75,9 @@
 .data h1{
     font-family: 'Raleway', sans-serif;
     color: #61CE70;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 700;
+    line-height: 1;
     margin-bottom: 3rem;
 }
 
