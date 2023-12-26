@@ -22,14 +22,12 @@
 }
 
 .copyright{
-    /* font-family: 'Nova Square', sans-serif; */
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
     padding: 25px 10px;
     font-weight: 500;
     font-size: 18px;
     color: #bbbbbb;
-    letter-spacing: 0px;
 }
 
 .colm{
@@ -43,13 +41,16 @@
     height: 100px;
 }
 
-.colm:first-child:first-child ul li{
+.colm:first-child ul li{
     /* background-color: red; */
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
     list-style-type: none;
+    margin-left: -10px;
     margin-top: 20px;
     font-weight: 600;
-    letter-spacing: 1px;
+    /* letter-spacing: 2px; */
+    word-break: break-word;
     /* padding: 90px; */
 }
 
@@ -76,6 +77,11 @@ ul li{
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 1px;
+}
+
+ul li:hover{
+    color: #61CE70;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 550px){
