@@ -9,6 +9,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  padding: 0;
 }
 
 .navbar {
@@ -20,7 +21,9 @@
 }
 
 .bg {
-  margin: -9px auto;
+  /* background-color: red; */
+  padding: 15px 0px;
+  /* margin: -9px auto; */
   width: 90%;
 }
 
