@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 * {
     box-sizing: border-box;
@@ -13,7 +14,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
+:root {
     /* --navbar-background:#07142B; */
     /* --white-color:#fff; */
     /* --green-color: #BDD1BD; */
@@ -22,6 +23,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     HTML,
     body {
         width: 100%;
@@ -34,4 +36,11 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.active {
+    /* background-color: #61CE70; */
+    /* Adjust the color based on your preference */
+    color: #61CE70 !important;
+    /* Adjust the text color based on your preference */
 }

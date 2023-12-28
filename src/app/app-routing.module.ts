@@ -16,7 +16,7 @@ import { CareerPageComponent } from './career-page/career-page.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path:'home',
     component:HomeComponent,
     pathMatch:'full'
   },
