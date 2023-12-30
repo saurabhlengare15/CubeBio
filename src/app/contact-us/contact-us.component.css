@@ -215,6 +215,18 @@ textarea {
   height: calc(8rem + 2px);
 }
 
+.alert-danger{
+  color: red;
+}
+
+button.close{
+  padding: 3px;
+  float: right;
+  background-color: #fff;
+  color: black;
+  font-size: medium;
+}
+
 .send-button {
   padding: 10px 20px;
   /* Adjust padding as needed */
