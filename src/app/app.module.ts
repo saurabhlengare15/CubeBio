@@ -25,6 +25,7 @@ import { CsrComponent } from './csr/csr.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { LogosComponent } from './logos/logos.component';
 import { CareerPageComponent } from './career-page/career-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { CareerPageComponent } from './career-page/career-page.component';
     MatIconModule,
     CommonModule,
     HttpClientModule,
-    CarouselModule  
+    CarouselModule,
+    ReactiveFormsModule  
     // SolutionsModule
   ],
   providers: [],

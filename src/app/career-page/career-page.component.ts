@@ -26,7 +26,7 @@ import emailjs from '@emailjs/browser';
     ]),
   ]
 })
-export class CareerPageComponent implements OnInit{
+export class CareerPageComponent implements OnInit {
 
   ngOnInit(): void {
 
@@ -34,8 +34,8 @@ export class CareerPageComponent implements OnInit{
     const writer = new Typewriter(target, {
       loop: true,
       typeColor: '#fff',
-      animateCursor:true,
-      blinkSpeed:500,
+      animateCursor: true,
+      blinkSpeed: 500,
       cursorColor: '#fff',
       typeSpeed: 90,
       deleteSpeed: 90,
@@ -50,10 +50,10 @@ export class CareerPageComponent implements OnInit{
     window.addEventListener('load', Aos.refresh);
   }
 
-  constructor(private fb : FormBuilder){}
+  constructor(private fb: FormBuilder) { }
 
-  success:boolean = false;
-  error:boolean = false;
+  success: boolean = false;
+  error: boolean = false;
 
   buttonState = 'notHovered';
   OnHover(hovered: boolean) {
@@ -69,7 +69,7 @@ export class CareerPageComponent implements OnInit{
     address: ['', [Validators.required]],
   });
 
-  OnSubmit(){
+  OnSubmit() {
 
     if (this.myForm.valid) {
       console.log(this.myForm.value);
@@ -79,16 +79,16 @@ export class CareerPageComponent implements OnInit{
         email: this.myForm.value.email,
         phone: this.myForm.value.phone,
         address: this.myForm.value.address,
-    };
+      };
 
-    emailjs.send('service_pk991yc','template_yc7im6c', templateParams,'kg9RpK0xdqiOA6W3h')
-      .then((response) => {
-         console.log('SUCCESS!', response.status, response.text);
-         this.success = true;
-        this.error = false;
-      }, (err) => {
-         console.log('FAILED...', err);
-      });
+      emailjs.send('service_pk991yc', 'template_yc7im6c', templateParams, 'kg9RpK0xdqiOA6W3h')
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          this.success = true;
+          this.error = false;
+        }, (err) => {
+          console.log('FAILED...', err);
+        });
 
       this.myForm.reset();
 
@@ -101,7 +101,7 @@ export class CareerPageComponent implements OnInit{
 
   }
 
-  closeAlert(){
+  closeAlert() {
     this.success = false;
     this.error = false;
   }
