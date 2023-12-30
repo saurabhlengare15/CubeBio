@@ -30,6 +30,10 @@
   transform: translate(-50%, -50%);
 }
 
+.heading{
+  margin: 1px auto;
+}
+
 .data {
   margin: 30px 0px;
 }
@@ -57,12 +61,12 @@ header h2 {
   line-height: 2.5rem;
   font-weight: 700;
   color: #61CE70;
+  /* background-color: red; */
 }
 
 .content {
   /* background-color: red; */
   display: flex;
-  /*  */
   line-height: 1.5;
   font-weight: 100;
   text-align: justify;
@@ -78,8 +82,7 @@ header h2 {
   font-size: 18px;
 }
 
-.stylish-underline {
-
+/* .stylish-underline {
   position: relative;
   text-decoration: none;
 }
@@ -91,16 +94,16 @@ header h2 {
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: rgb(169, 165, 165);
+  background-color: #1e2434;
   transform-origin: bottom right;
   transform: scaleX(0);
   transition: transform 1s ease;
-}
+} */
 
-.stylish-underline:hover::after {
-  transform-origin: bottom left;
+/* .stylish-underline:hover::after {
+  transform-origin: center;
   transform: scaleX(1);
-}
+} */
 
 
 .container {
