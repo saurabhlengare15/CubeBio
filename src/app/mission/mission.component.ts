@@ -17,7 +17,7 @@ export class MissionComponent implements OnInit {
 
   ngOnInit(): void {
     this.heading = 'VISION STATEMENT';
-    this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
+    this.data = 'Azfa Waste Management Private Limited (AWMPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
     this.isClickedmission = false;
     this.isClickedphilosophy = false;
     this.isClickedvision = !this.isClickedvision;
@@ -31,7 +31,7 @@ export class MissionComponent implements OnInit {
     switch (name) {
       case 'vision':
         this.heading = 'VISION STATEMENT';
-        this.data = 'Cube bio-Energy Private Limited (CBEPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
+        this.data = 'Azfa Waste Management Private Limited (AWMPL) want to be a part of success story in creating the clean and healthy environment society by providing solutions for all environmental issues.';
         this.isClickedmission = false;
         this.isClickedphilosophy = false;
         this.isClickedvision = !this.isClickedvision;
