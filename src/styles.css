@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
-@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 * {
     box-sizing: border-box;
