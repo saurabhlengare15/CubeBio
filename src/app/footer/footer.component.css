@@ -75,11 +75,12 @@ ul li, ul li button{
     font-weight: 600;
     color: #fff;
     background-color: #54595F;
+    text-align: left;
     border: none;
     list-style-type: square;
     margin-bottom: 10px;
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 14px;
+    /* line-height: 1.5; */
     letter-spacing: 1px;
     text-decoration: none;
 }

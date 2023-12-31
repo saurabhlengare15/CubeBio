@@ -32,10 +32,14 @@ h4 {
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid #eeeeee;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
+}
+.cont{
+        display: flex;
+    flex-direction: row;
 }
 
 .mission .mission-item:hover {
@@ -46,7 +50,6 @@ h4 {
     cursor: pointer;
     color: #fff;
 }
-
 
 .mission .mission-item .icon {
     width: 80px;
@@ -88,6 +91,7 @@ h4 {
     color: #61CE70;
     font-size: 16px;
     margin-bottom: 10px;
+    /* background-color: red; */
 }
 
 .display_data{
