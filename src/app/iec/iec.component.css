@@ -9,7 +9,7 @@
     box-sizing: border-box;
     height: 450px;
     /* background: url(../../assets/c3.jpg); */
-    background-image: url(../../assets/iec.jpeg);
+    background-image: url(../../assets/IEC1.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -103,6 +103,7 @@
 .box img{
     width: 100%;
 }
+
 
 @media only screen and (max-width: 550px){
     .banner h1 {

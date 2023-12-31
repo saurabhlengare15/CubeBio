@@ -15,6 +15,11 @@
     /* letter-spacing: 2px; */
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 h2{
     font-size: 100%;
     margin: 2px 1px;
