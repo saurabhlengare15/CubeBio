@@ -21,30 +21,30 @@ export class MediaawardsComponent implements OnInit {
   // ngOnInit(): void {
   // }
 
-  boxes = [
-    { content: 'Box 1', state: 'active' },
-    { content: 'Box 2', state: 'inactive' },
-    { content: 'Box 3', state: 'inactive' },
-  ];
+  // boxes = [
+  //   { content: 'Box 1', state: 'active' },
+  //   { content: 'Box 2', state: 'inactive' },
+  //   { content: 'Box 3', state: 'inactive' },
+  // ];
 
   constructor() {}
 
   ngOnInit(): void {
-    this.startSlider();
+    // this.startSlider();
   }
 
-  startSlider() {
-    setInterval(() => {
-      this.rotateBoxes();
-    }, 3000);
-  }
+  // startSlider() {
+  //   setInterval(() => {
+  //     this.rotateBoxes();
+  //   }, 3000);
+  // }
 
-  rotateBoxes() {
-    const activeIndex = this.boxes.findIndex((box) => box.state === 'active');
-    const nextIndex = (activeIndex + 1) % this.boxes.length;
+  // rotateBoxes() {
+  //   const activeIndex = this.boxes.findIndex((box) => box.state === 'active');
+  //   const nextIndex = (activeIndex + 1) % this.boxes.length;
 
-    this.boxes.forEach((box, index) => {
-      box.state = index === nextIndex ? 'active' : 'inactive';
-    });
-  }
+  //   this.boxes.forEach((box, index) => {
+  //     box.state = index === nextIndex ? 'active' : 'inactive';
+  //   });
+  // }
 }

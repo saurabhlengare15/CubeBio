@@ -17,21 +17,20 @@ export class MunicipalSolidWasteComponent implements OnInit {
   resultdata: any;
   title: any;
 
-  constructor(private dataService: SolutionDataService, private route: ActivatedRoute,private router: Router) {
-    this.router.routeReuseStrategy.shouldReuseRoute = function(){
+  constructor(private dataService: SolutionDataService, private route: ActivatedRoute, private router: Router) {
+    this.router.routeReuseStrategy.shouldReuseRoute = function () {
       return false;
-   }
+    }
 
-   this.router.events.subscribe((evt) => {
+    this.router.events.subscribe((evt) => {
       if (evt instanceof NavigationEnd) {
-         this.router.navigated = false;
-         window.scrollTo(0, 0);
+        this.router.navigated = false;
+        window.scrollTo(0, 0);
       }
-  });
-   }
+    });
+  }
 
   ngOnInit(): void {
-
     this.route.params.subscribe(params => {
       this.dataService.getFilteredData(params['solution']).subscribe(
         data => {
@@ -39,7 +38,7 @@ export class MunicipalSolidWasteComponent implements OnInit {
           this.resultdata = data[0];
 
           this.title = this.resultdata.title;
-          console.log("title: " + this.title);
+          // console.log("title: " + this.title);
 
           const target = document.querySelector('.tw');
           const writer = new Typewriter(target, {

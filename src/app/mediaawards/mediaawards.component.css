@@ -17,15 +17,15 @@ h2 {
     max-height: 300px;
 }
 
-.logo-slider {
-    width: 80%;
-    background-color: red;
-    margin: auto;
+.video-container{
+    /* background-color: red; */
+    margin-bottom: 50px;
 }
 
-.logo-item img {
-    width: 10%;
-    height: auto;
+.video{
+    margin: 10px auto;
+    padding: 10px;
+    /* background-color: green; */
 }
 
 /* .box {
