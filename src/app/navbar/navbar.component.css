@@ -139,3 +139,10 @@ button:hover:after {
 button:hover {
   color: #3DA35D;
 }
+
+.active {
+  background-color: #fff;
+  /* Adjust the color based on your preference */
+  color: #61CE70 !important;
+  /* Adjust the text color based on your preference */
+}

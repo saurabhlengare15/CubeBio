@@ -1,35 +1,35 @@
 
 <nav class="navbar navbar-expand-lg shadow">
     <div class="container-fluid bg">
-      <a class="navbar-brand" a href="/home"><img src="../../assets/logo.png" width="200"></a>
+      <a class="navbar-brand" href="/home"><img src="../../assets/logo.png" width="200"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
           <li class="nav-item" >
-            <a class="nav-link" aria-current="page" a href="/home" routerLinkActive="active">Home</a>
+            <a class="nav-link" aria-current="page" href="/home" [class.active]="isHomeActive()">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" [class.active]="isAboutUsActive()">
               About Us
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" a href="/about/brifhistory/#banner">brief history</a></li>
+              <li><a class="dropdown-item" href="/about/brifhistory/#banner">brief history</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" a href="/about/brifhistory/#mission">vision & mission</a></li>
+              <li><a class="dropdown-item" href="/about/brifhistory/#mission">vision & mission</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" a href="about/board-of-directors">board of directors</a></li>
+              <li><a class="dropdown-item" href="about/board-of-directors">board of directors</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" a href="about/investors-deck">investors deck</a></li>
+              <li><a class="dropdown-item" href="about/investors-deck">investors deck</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" a href="about/iec">iec</a></li>
+              <li><a class="dropdown-item" href="about/iec">iec</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" a href="about/csr">csr</a></li>
+              <li><a class="dropdown-item" href="about/csr">csr</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLinkActive="active">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" [class.active]="isSolutionActive()">
                Solutions
             </a>
             <ul class="dropdown-menu">
@@ -58,13 +58,13 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="/media-and-rewards" routerLinkActive="active">media & awards</a>
+            <a class="nav-link" href="/media-and-rewards" [class.active]="isMediaActive()">media & awards</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="/career" routerLinkActive="active">career</a>
+            <a class="nav-link" href="/career" [class.active]="isCareerActive()">career</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="/contact-us" routerLinkActive="active">Contact Us</a>
+            <a class="nav-link" href="/contact-us" [class.active]="isContactActive()">Contact Us</a>
           </li>
         </ul>
         <div class="second"></div>
