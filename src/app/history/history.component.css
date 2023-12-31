@@ -109,6 +109,10 @@
     font-weight: 700;
 }
 
+#mission{
+    background-color: red;
+}
+
 /* .heading .data .row .box .auther p:last-child {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;

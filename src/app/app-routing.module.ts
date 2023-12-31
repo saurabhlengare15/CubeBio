@@ -41,22 +41,22 @@ const routes: Routes = [
     pathMatch:'full'
   },
   {
-    path:'board-of-directors',
+    path:'about/board-of-directors',
     component:DiretorsComponent,
     pathMatch:'full'
   },
   {
-    path:'investors-deck',
+    path:'about/investors-deck',
     component:InvestorsComponent,
     pathMatch:'full'
   },
   {
-    path:'iec',
+    path:'about/iec',
     component:IecComponent,
     pathMatch:'full'
   },
   {
-    path:'csr',
+    path:'about/csr',
     component:CsrComponent,
     pathMatch:'full'
   },
